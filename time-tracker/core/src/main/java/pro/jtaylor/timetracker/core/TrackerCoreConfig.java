@@ -15,6 +15,10 @@ import java.util.List;
 @ComponentScan("pro.jtaylor.timetracker.core")
 public class TrackerCoreConfig {
 
+    /*
+    *
+    *  timeentries method
+    */
     @Bean(name = "timesheet")
     public List<TimeEntry> timeEntries() {
         return new ArrayList<>();
